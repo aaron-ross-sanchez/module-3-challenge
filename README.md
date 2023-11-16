@@ -32,7 +32,7 @@ Once the user inputs a correct number for the characters, they will be presented
 The user is then returned a password that reflects the users input.
 ![Generated Password](/assets/9.png)
 
-You can access the deployed application [here](ENTER LINK HERE)
+You can access the deployed application [here](https://aaron-ross-sanchez.github.io/module-3-challenge/)
 
 ## Credits
 
