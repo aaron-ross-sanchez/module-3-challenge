@@ -63,6 +63,10 @@ function generatePassword() {
         if (specialInput) {
           special = specialChars;
         }
+        if (lowercaseInput == false && uppercaseInput == false && numbersInput == false && specialInput == false) {
+          alert("Since you decided to not include any character types in your password... lowercase characters have been chosen for you...")
+          lowercase = lowercaseChars;
+        }
 
         //This creates the final list of characters that the program can choose from based off of user input
         let characters = lowercase + uppercase + numbers + special;
